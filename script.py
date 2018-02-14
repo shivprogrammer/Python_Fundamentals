@@ -20,3 +20,11 @@ def add_numbers(x, y, z=None):
 
 print(add_numbers(1, 2))
 print(add_numbers(1, 2, 3))
+
+def do_math(a, b, kind='add'):
+    if (kind == 'add'):
+        return a + b
+    else:
+        return a - b
+
+print(do_math(1, 2))
