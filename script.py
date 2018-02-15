@@ -135,3 +135,4 @@ print(sales_statement.format(sales_record['person'],
                              sales_record['num_items'],
                              sales_record['price'],
                              sales_record['num_items'] * sales_record['price']))
+# Chris bought 4 item(s) at a price of 3.24 each for a total of 12.96
