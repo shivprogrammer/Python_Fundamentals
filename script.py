@@ -120,4 +120,18 @@ fname, lname, email = x
 #print(lname) // 'Brooks'
 
 #x = ('Christopher', 'Brooks', 'brooksch@umich.edu', 'Ann Arbor')
-#fname, lname, email = x // returns ValueError: too many values to unpack
+#fname, lname, email = x // ValueError: too many values to unpack (expected 3)
+
+#print('Chris' + 2) // TypeError: must be str, not int
+#print('Chris' + str(2)) // Chris2
+
+sales_record = {'price': 3.24,
+                'num_items': 4,
+                'person': 'Chris'}
+
+sales_statement = '{} bought {} items(s) at a price of {} each for a total of {}'
+
+print(sales_statement.format(sales_record['person'],
+                             sales_record['num_items'],
+                             sales_record['price'],
+                             sales_record['num_items'] * sales_record['price']))
