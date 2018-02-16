@@ -31,28 +31,24 @@ x = [1, 'a', 2, 'b']
 x.append(3.3)
 #print(x) // return [1, 'a', 2, 'b', 3.3]
 
-"""
-for item in x:
-    print(item)
-1
-a
-2
-b
-3.3   
-"""
+# for item in x:
+#     print(item)
+# 1
+# a
+# 2
+# b
+# 3.3
 
-"""
-i = 0
-while (i != len(x) ):
-    print(x[i])
-    i += 1
-1
-a
-2
-b
-3.3
-"""
-   
+# i = 0
+# while (i != len(x) ):
+#     print(x[i])
+#     i += 1
+# 1
+# a
+# 2
+# b
+# 3.3
+
 #print([1, 2] + [3, 4]) // [1, 2, 3, 4]
 #print([1] * 3) // [1, 1, 1]
 #print(1 in [1, 2, 3]) // True
@@ -86,33 +82,27 @@ x={'Christopher Brooks': 'brooksch@umich.edu', 'Bill Gates': 'billg@microsoft.co
 x['Kevyn Collins-Thompson'] = None
 #print(x['Kevyn Collins-Thompson']) // None
 
-"""
-for name in x:
-    print(x[name])
-brooksch@umich.edu
-billg@microsoft.edu
-None
-"""
+# for name in x:
+#     print(x[name])
+# brooksch@umich.edu
+# billg@microsoft.edu
+# None
 
-"""
-for email in x.values():
-    print(email)
-brooksch@umich.edu
-billg@microsoft.edu
-None
-"""
+# for email in x.values():
+#     print(email)
+# brooksch@umich.edu
+# billg@microsoft.edu
+# None
 
-"""
-for name, email in x.items():
-    print(name)
-    print(email)
-Christopher Brooks
-brooksch@umich.edu
-Bill Gates
-billg@microsoft.com
-Kevyn Collins-Thompson
-None
-"""
+# for name, email in x.items():
+#     print(name)
+#     print(email)
+# Christopher Brooks
+# brooksch@umich.edu
+# Bill Gates
+# billg@microsoft.com
+# Kevyn Collins-Thompson
+# None
 
 x = ('Christopher', 'Brooks', 'brooksch@umich.edu')
 fname, lname, email = x
